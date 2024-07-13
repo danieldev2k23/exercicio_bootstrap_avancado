@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Carousel de Imagens -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="container carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_1280.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_1280.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_640.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Proximo</span>
+        </a>
+    </div>
+
+    <!-- Layout com Grid -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="https://cdn.awsli.com.br/600x1000/1258/1258259/produto/114293492/ps5-fat-branco-699n7j92o9.png" class="card-img-top" alt="Videogame 1">
+                    <div class="card-body">
+                        <h5 class="card-title">PS4</h5>
+                        <p class="card-text">O PS5 tem um design bastante diferente de outros consoles da marca – ele é também o maior aparelho já lançado da linha PlayStation. É que, por dentro, a Sony colocou um hardware bastante avançado prometendo recursos gráficos antes impossíveis em consoles da linha, além de tempos de carregamento quase inexistentes..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="https://images-americanas.b2w.io/produtos/01/00/img3/21163738/9/2116373802_1GG.jpg" class="card-img-top" alt="Videogame 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Xbox Series X</h5>
+                        <p class="card-text">Encerramos nosso guia com o Xbox Series X, o mais poderoso da nova geração. Ele tem 20% mais poder gráfico que o PS5, mesmo trazendo a mesma arquitetura da AMD — mas, por outro lado, tem SSD mais lento. Ou seja, com o da Sony você terá jogos carregando mais rápido e no da Microsoft terá maior fluidez em alguns games..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="https://images.tcdn.com.br/img/img_prod/1019839/console_xbox_360_slim_4gb_4841_1_726ba5d64625040845d6f6749a586056.jpg" class="card-img-top" alt="Videogame 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Xbox 360</h5>
+                        <p class="card-text">O Xbox 360 é um videogame da Microsoft lançado primeiramente em 22 de novembro de 2005. O console substitui o Xbox antigo para ser o grande concorrente do PlayStation 3 na batalha da sétima geração de videogames. O 360 deixou de ser carro-chefe da Microsoft com o lançamento do Xbox One em 2013.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="https://nintendo.trilogygames.com.br/image/cache/catalog/dan-2/1643404832-494x494.jpeg" class="card-img-top" alt="Videogame 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Nintendo Switch</h5>
+                        <p class="card-text">Vocês podem jogar juntos online ou em um mesmo ambiente com um console ou vários consoles*. As funcionalidades específicas variam de acordo com o jogo, como conversa por voz ou reprodução em tela dividida, mas compartilhar diversão com amigos e familiares é o foco principal do console Nintendo Switch..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
